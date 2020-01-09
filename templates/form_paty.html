@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% from 'bootstrap/form.html' import render_form, render_field, render_form_row %}
+
+{% block content %}
+
+    <form>
+      <div>
+        <table class="table table-borderless table-dark">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col-sm-6">Cuit: 67867887</th>
+              <th scope="col-sm-6">Nombre:Patricia</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div>
+        <h6 >Hipotesis</h6>
+      </div>
+      <div>
+        <table class="table table-bordered">
+        <tbody>
+          <tr>
+            <th scope="row">Id</th>
+            <td>34432</td>
+          </tr>
+          <tr>
+            <th scope="row">Descri</th>
+            <td>Jacob</td>
+          </tr>
+          <tr>
+            <th scope="row">Tipo desvio</th>
+            <td colspan="2">Larry the Bird</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              Evidencias
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <th scope="row">Id</th>
+                    <td>34432</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Descri</th>
+                    <td>Jacob</td>
+                  </tr>       
+                    
+                  </tr>
+                </tbody>
+              </table>
+          </td>          
+            
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </form>
+
+    
+
+    
+      
+      <!--table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </!--table-->
+
+{% endblock %}
